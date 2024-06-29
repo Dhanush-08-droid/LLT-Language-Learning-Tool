@@ -1,42 +1,54 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.header
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: #262424;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.images
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+img{
+  height: 50px;
+  width: 50px;
+  margin-top: 0%;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header div{
+  color: white;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login
+{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #262424;
+  color: white;
+  border: 1px solid white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.hover:hover
+{
+color: #746d6d;
 }
-
-.card {
-  padding: 2em;
+.login:hover
+{
+  color: #746d6d;
+  border: 1px solid #746d6d;
 }
-
-.read-the-docs {
-  color: #888;
+.courses
+{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #262424;
+  color: white;
+  border: 1px solid white;
+}
+.courses:hover
+{
+  color: #746d6d;
+  border: 1px solid #746d6d;
 }
